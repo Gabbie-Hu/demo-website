@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+          <h1 class="logo"><a href="index.html">My Portfolio</a></h1>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+
+
+    <main>
+        <section class="hero-flex">
+            <div class="hero-image">
+              <img src="images/Me800.jpg" 
+              srcset="
+                images/Me400.jpg 400w;
+                images/Me800.jpg 800w;
+                images/Me1200.jpg 1200W;
+              "
+              sizes="(max-wdith:600px) 100vw, 50vw"
+              alt="Gabby" width="300" height="300" />
+            </div>
+
+            <div class="hero-text">
+              <h2>Welcome to My Portfolio!</h2>
+              <p>This is a space where I collect and share the work I’ve created in my web design course. From responsive layouts to interactive features, everything you see here reflects my learning and creativity.</p>
+              <div class="hero-buttons">
+                <a href="projects.html" class="hero-btn">View Projects</a>
+                <a href="about.html" class="hero-btn secondary">About Me</a>
+              </div>
+              <button id="toggle-theme" class="toggle-btn">🌙 Toggle Theme</button>
+              <div id="welcome-message" class="welcome-message"></div>
+
+            </div>
+          </section>
+          
+
+        
+
+    </main>
+
+    <footer>
+        <p>© 2025 Gabby Hu</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
